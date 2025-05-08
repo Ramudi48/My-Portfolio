@@ -6,7 +6,11 @@
 }
 
 /* Set global font and background */
-
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
 /* Navbar styles */
 .navbar {

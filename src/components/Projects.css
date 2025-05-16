@@ -1,0 +1,82 @@
+.projects-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.project-card {
+  background: #fff;
+  width: 100%;
+  max-width: 700px;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h3 {
+  color: #2c3e50;
+}
+
+.badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.badge.public {
+  background: #1abc9c;
+}
+
+.badge.private {
+  background: #7f8c8d;
+}
+
+.project-footer {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.typescript {
+  background-color: #3178c6;
+}
+
+.dot.java {
+  background-color: #f0ad4e;
+}
+
+.dot.hack {
+  background-color: #6f42c1;
+}
+
+.date {
+  margin-left: auto;
+  font-style: italic;
+}

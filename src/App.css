@@ -68,3 +68,69 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f5f7fa;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+.text-content h2 {
+  font-size: 1.5rem;
+  color: #2b3a42;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: #1e90ff;
+}
+
+.text-content p {
+  margin-top: 8px;
+  color: #555;
+}
+
+.download-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #006bd6;
+}

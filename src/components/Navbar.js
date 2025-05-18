@@ -1,19 +1,21 @@
-// src/components/Navbar.js
-import React from 'react';
-import './Navbar.css';
+import React from "react";
+import "./Navbar.css";
+import { FaHome, FaUser, FaBriefcase, FaComments } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <div className="navbar-logo">Ramudi</div>
+      <ul className="navbar-links">
+        <li><a href="#home"><FaHome className="icon" /> Home</a></li>
+        <li><a href="#about"><FaUser className="icon" /> About</a></li>
+        <li><a href="#projects"><FaBriefcase className="icon" /> Projects</a></li>
+        <li><a href="#contact"><FaComments className="icon" /> Contact</a></li>
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
+
+

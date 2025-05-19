@@ -1,64 +1,52 @@
+// src/components/Projects.js
 import React from 'react';
 import './Projects.css';
 
 const projects = [
   {
-    title: 'Gamified drug addiction prevention app',
-    img: '/drugaddiction.jpg',
-    repo: 'https://github.com/yourusername/volunteer-website',
+    title: "Maanikya",
+    image: "/images/maanikya.png", // Replace with your image path
+    description:
+      "Maanikya is a mobile app for gem traders to manage inventory, QR code generation, track orders, and automate gem processing using AI-powered classification. Stack - React Native, NodeJs, MongoDB, Python(ML), API Development, GIT",
+    github: "#",
+    website: "#",
+    demo: "#",
   },
   {
-    title: 'Real-time ticket booking system',
-    img: '/eventticket.jpg',
-    repo: 'https://github.com/Ramudi48/TicketingSystem',
+    title: "Airplane Seat Booking System",
+    image: "/images/airplane.png",
+    description:
+      "A Java program managing seat reservations on a private plane, tracking availability with arrays and featuring a menu for booking, canceling, and displaying seating plans.",
+    github: "#",
   },
   {
-    title: 'Doctor Appointment Website',
-    img: '/doctorappointment.jpg',
-    repo: 'https://github.com/Ramudi48/Doctor-Appointment-Website',
-  },
-  {
-    title: 'Plane Management System',
-    img: '/planemanagement.jpg',
-    repo: 'https://github.com/Ramudi48/Plane-Management',
-  },
-  {
-    title: 'Clean Water website',
-    img: '/safewater_og.jpg',
-    repo: 'https://github.com/Ramudi48/cleanwater.com',
-  },
-  {
-    title: 'GitHub Profile',
-    img: '/github.jpg',
-    repo: 'https://github.com/Ramudi48',
+    title: "Student Mark Evaluation System",
+    image: "/images/mark-eval.png",
+    description:
+      "A Python project predicting student progression outcomes, featuring input validation, histogram visualization, and data persistence in text files.",
+    github: "#",
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="projects-container">
-      <main className="main-content">
-        <h2 className="projects-title">
-          Projects <span className="underline" />
-        </h2>
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <a
-              href={project.repo}
-              key={index}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-card"
-            >
-              <img src={project.img} alt={project.title} />
-              <div className="overlay">
-                <h3>{project.title}</h3>
-              </div>
-            </a>
-          ))}
-        </div>
-      </main>
-    </div>
+    <section id="projects" className="projects-section">
+      <h2 className="section-title">Projects</h2>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <img src={project.image} alt={project.title} className="project-image" />
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <div className="project-links">
+              {project.github && <a href={project.github} className="project-btn" target="_blank" rel="noreferrer">Github</a>}
+              {project.website && <a href={project.website} className="project-btn" target="_blank" rel="noreferrer">Website</a>}
+              {project.demo && <a href={project.demo} className="project-btn" target="_blank" rel="noreferrer">Demo</a>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 

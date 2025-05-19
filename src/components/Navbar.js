@@ -1,21 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import { FaHome, FaUser, FaBriefcase, FaComments } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({ setActiveSection }) => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Toggle dark mode class on body
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
+  }, [isDarkMode]);
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">Ramudi</div>
       <ul className="navbar-links">
-        <li><a href="#home"><FaHome className="icon" /> Home</a></li>
-        <li><a href="#about"><FaUser className="icon" /> About</a></li>
-        <li><a href="#projects"><FaBriefcase className="icon" /> Projects</a></li>
-        <li><a href="#contact"><FaComments className="icon" /> Contact</a></li>
+        <li onClick={() => setActiveSection("home")}>Home</li>
+        <li onClick={() => setActiveSection("about")}>About</li>
+        <li onClick={() => setActiveSection("projects")}>Projects</li>
+        <li onClick={() => setActiveSection("contact")}>Contact</li>
+        <li>
+          <button
+            className="dark-mode-btn"
+            onClick={() => setIsDarkMode(!isDarkMode)}
+          >
+            {isDarkMode ? "Light Mode💡" : "Dark Mode"}
+          </button>
+        </li>
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
-
-

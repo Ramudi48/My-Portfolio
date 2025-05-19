@@ -1,24 +1,25 @@
-// src/App.js
-import React from 'react';
+import React, { useState } from "react";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import Skills from './components/Skills';
 import Contact from './components/Contact';
-import './App.css';
 
-function App() {
+
+
+const App = () => {
+  const [activeSection, setActiveSection] = useState("home");
+
   return (
-    <>
-      <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </>
+    <div>
+      <Navbar setActiveSection={setActiveSection} />
+
+      {activeSection === "home" && <Home />}
+      {activeSection === "about" && <About />}
+      {activeSection === "projects" && <Projects />}
+      {activeSection === "contact" && <Contact />}
+    </div>
   );
-}
+};
 
 export default App;

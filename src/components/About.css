@@ -1,14 +1,14 @@
 .about-section {
   padding: 50px 20px;
-  background-color: #111;
-  color: #fff;
+  background-color: #fff;
+  color: #000000;
 }
 
 .section-title {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 30px;
-  border-left: 5px solid #00f0ff;
+  
   padding-left: 15px;
 }
 
@@ -25,7 +25,7 @@
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #ccc;
+  color: #100101;
 }
 
 .about-details {
@@ -40,17 +40,17 @@
 }
 
 .about-details a {
-  color: #00f0ff;
+  color: #000000;
   text-decoration: none;
 }
 
 .highlight {
-  color: #fff;
+  color: #000000;
   font-weight: bold;
 }
 
 .highlight-blue {
-  color: #00f0ff;
+  color: #000000;
   font-weight: bold;
 }
 

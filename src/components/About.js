@@ -27,6 +27,7 @@ const About = () => {
             <li><strong>Location:</strong> Kalutara, Sri Lanka</li>
           </ul>
         </div>
+        
 
         <div className="skills">
             <span>HTML</span>

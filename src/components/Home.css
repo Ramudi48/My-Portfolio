@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f0f0f;
-  color: #fff;
+  background-color: #fbfbfb;
+  color: #0c0000;
   padding: 80px 60px;
   flex-wrap: wrap;
 }
@@ -20,7 +20,7 @@
 }
 
 .highlight-name {
-  color: #aacf4c;
+  color:#0c0000;
   font-family: 'Pacifico', cursive;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .highlight-role {
-  color: #00f2ff;
+  color: #0c0000;
 }
 
 .hero-left p {
@@ -47,7 +47,7 @@
 }
 
 .social-icons a {
-  color: #00f2ff;
+  color: #0c0000;
   font-size: 1.6rem;
   transition: transform 0.3s;
 }

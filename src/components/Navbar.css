@@ -1,73 +1,106 @@
+/* Common navbar styling */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #27472c;
-  padding: 15px 30px;
-  color: white;
+  padding: 15px 40px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
   flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  background-color: #000;
+  color: #ffffff;
 }
 
 .navbar-logo {
-  font-family: 'Georgia', serif;
-  font-size: 1.8rem;
-  color: #ebf0f0;
+  font-size: 1.6rem;
   font-weight: bold;
+  color: inherit;
 }
 
 .navbar-links {
   list-style: none;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 30px;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
 }
 
-.navbar-links li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
+.navbar-links li {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  color: inherit;
   transition: color 0.3s ease;
-   white-space: nowrap;
-  padding: 9px 50px;
 }
 
-.navbar-links li a .icon {
-  margin-right: 8px;
+.navbar-links li:hover {
+  color: #555;
 }
 
-.navbar-links li a:hover,
-.navbar-links li a.active {
-  color: #00f0ff;
+.dark-mode-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
+.dark-mode-btn:hover {
+  background-color: #333;
+}
+
+/* Dark mode styles applied to body */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar {
+  background-color: #111;
+  color: white;
+}
+
+body.dark-mode .navbar-links li {
+  color: white;
+}
+
+body.dark-mode .navbar-links li:hover {
+  color: #ccc;
+}
+
+body.dark-mode .dark-mode-btn {
+  background-color: white;
+  color: #111;
+}
+
+body.dark-mode .dark-mode-btn:hover {
+  background-color: #ddd;
+}
+
+/* Responsive layout */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 15px;
   }
 
   .navbar-links {
     flex-direction: column;
+    align-items: flex-start;
     width: 100%;
+    gap: 15px;
+    margin-top: 10px;
   }
 
-  .navbar-links li {
+  .navbar-links li,
+  .dark-mode-btn {
     width: 100%;
-    margin: 8px 0;
-  }
-
-  .navbar-links li a {
-    width: 100%;
-    padding: 8px 0;
   }
 }

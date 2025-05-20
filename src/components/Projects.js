@@ -4,26 +4,74 @@ import './Projects.css';
 
 const projects = [
   {
-    title: "Maanikya",
-    image: "/images/maanikya.png", // Replace with your image path
+    title: "Gamified Drug Addiction Prevention App",
+    image: "drugaddiction.jpg", // Replace with your image path
     description:
-      "Maanikya is a mobile app for gem traders to manage inventory, QR code generation, track orders, and automate gem processing using AI-powered classification. Stack - React Native, NodeJs, MongoDB, Python(ML), API Development, GIT",
-    github: "#",
-    website: "#",
-    demo: "#",
+      "A mobile app designed to prevent drug addiction through gamification, featuring quizzes, rewards, and a community forum for support.",
+    github: "https://github.com/Ramudi48",
+    
   },
   {
-    title: "Airplane Seat Booking System",
-    image: "/images/airplane.png",
+    title: "Doctor Appointment Booking System",
+    image: "doctorappointment.jpg", // Replace with your image path
+    description:
+      "A web application for booking doctor appointments, allowing users to search for doctors, view availability, and manage their appointments.",
+    github: "https://github.com/Ramudi48/Doctor-Appointment-Website",
+  },
+  {
+    title: "Real-Time Ticket Booking System",
+    image: "eventticket.jpg",
     description:
       "A Java program managing seat reservations on a private plane, tracking availability with arrays and featuring a menu for booking, canceling, and displaying seating plans.",
+    github: "https://github.com/Ramudi48/TicketingSystem",
+  },
+  {
+    title: "Restaurant Landing Page",
+    image: "restaurant.jpg", 
+    description:
+      "A responsive landing page for a restaurant, showcasing the menu, location, and contact information, built with HTML, CSS, and JavaScript.",
+    github: "https://github.com/Ramudi48/Resturant-Landing-Page",
+    },
+  {
+    title: "Portfolio Website",
+    image: "portfolio.jpg", // Replace with your image path
+    description:
+      "A personal portfolio website showcasing my projects, skills, and experience, built with React and styled-components.",
     github: "#",
   },
   {
-    title: "Student Mark Evaluation System",
-    image: "/images/mark-eval.png",
+    title: "Weather App",
+    image: "weatherapp.jpg", // Replace with your image path
     description:
-      "A Python project predicting student progression outcomes, featuring input validation, histogram visualization, and data persistence in text files.",
+      "A weather application that provides real-time weather updates and forecasts using a third-party API.",
+    github: "#",
+  },
+  {
+    title: "Chat Application",
+    image: "chatapp.jpg", // Replace with your image path
+    description:
+      "A real-time chat application built with WebSocket, allowing users to communicate in different chat rooms.",
+    github: "#",
+  },
+  {
+    title: "Blog Platform",
+    image: "blogplatform.jpg", // Replace with your image path
+    description:
+      "A blogging platform where users can create, edit, and comment on blog posts, built with Node.js and Express.",
+    github: "#",
+  },
+  {
+    title: "Task Management App",
+    image: "taskmanagement.jpg", // Replace with your image path
+    description:
+      "A task management application that allows users to create, update, and delete tasks, with a focus on user-friendly design.",
+    github: "#",
+  },
+  {
+    title: "Recipe Finder",
+    image: "recipefinder.jpg", // Replace with your image path
+    description:
+      "A web application that helps users find recipes based on ingredients they have at home, using a third-party API.",
     github: "#",
   },
 ];

@@ -33,18 +33,18 @@ const projects = [
     github: "https://github.com/Ramudi48/Resturant-Landing-Page",
     },
   {
-    title: "Portfolio Website",
-    image: "portfolio.jpg", // Replace with your image path
+    title: "Coffee Shop Website",
+    image: "coffeE.jpg", 
     description:
-      "A personal portfolio website showcasing my projects, skills, and experience, built with React and styled-components.",
-    github: "#",
+      "A simple coffee shop website with a menu, contact form, and location map, built with HTML, CSS, and JavaScript.",
+    github: "https://github.com/Ramudi48/Coffee-Shop-Website",
   },
   {
-    title: "Weather App",
-    image: "weatherapp.jpg", // Replace with your image path
+    title: "Clean Water Website",
+    image: "cleanwater.jpg", // Replace with your image path
     description:
-      "A weather application that provides real-time weather updates and forecasts using a third-party API.",
-    github: "#",
+      "A website promoting clean water initiatives, featuring information on water conservation, donation options, and community events.",
+    github: "https://github.com/Ramudi48/cleanwater.com",
   },
   {
     title: "Chat Application",

@@ -1,54 +1,47 @@
 .hero-section {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #fbfbfb;
-  color: #0c0000;
-  padding: 80px 60px;
+  justify-content: space-between;
+  padding: 80px 10%;
   flex-wrap: wrap;
+  background: linear-gradient(to right, #ffffff, #f3f9f3);
 }
 
 .hero-left {
   flex: 1;
-  min-width: 300px;
   max-width: 600px;
 }
 
 .hero-left h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
 }
 
 .highlight-name {
-  color:#0c0000;
-  font-family: 'Pacifico', cursive;
+  color: #2e7d32;
+  font-weight: bold;
 }
 
 .hero-left h1 {
   font-size: 2.5rem;
-  font-weight: bold;
-  margin: 10px 0;
+  margin: 10px 0 20px;
 }
 
 .highlight-role {
-  color: #0c0000;
+  color: #00b894;
+  font-weight: bold;
 }
 
 .hero-left p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 30px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 20px;
 }
 
 .social-icons a {
-  color: #0c0000;
-  font-size: 1.6rem;
+  color: #2e7d32;
+  font-size: 1.5rem;
+  margin-right: 20px;
   transition: transform 0.3s;
 }
 
@@ -57,18 +50,18 @@
 }
 
 .resume-btn {
-  background-color: #179372;
-  color: #fff;
-  padding: 14px 28px;
-  border: none;
-  border-radius: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .resume-btn:hover {
-  background-color: #179372;
+  background-color: #1b5e20;
 }
 
 .hero-right {
@@ -76,11 +69,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 400px;
 }
 
 .hero-right img {
-  width: 550px;
-  border-radius: 5px;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
   object-fit: cover;
-  
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-right {
+    margin-top: 30px;
+  }
 }

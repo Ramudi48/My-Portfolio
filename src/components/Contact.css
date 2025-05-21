@@ -1,30 +1,31 @@
-/* General reset for smooth visuals */
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f7fafc;
+/* Wrapper to center everything */
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
 }
 
-/* Main contact container */
-.contact-section {
-  max-width: 600px;
-  margin: 80px auto;
-  padding: 40px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+/* Centered heading outside the form box */
+.contact-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #27472c;
+  margin-bottom: 30px;
   text-align: center;
 }
 
-/* Title */
-.contact-title {
-  font-size: 2.5rem;
-  color: #27472c;
-  margin-bottom: 30px;
-  font-weight: 700;
+/* Card-style form box */
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Form layout */
+/* Form styling */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -32,18 +33,16 @@ body {
   text-align: left;
 }
 
-/* Labels */
 .contact-form label {
   font-weight: 600;
   color: #333;
 }
 
-/* Input and textarea */
 .contact-form input,
 .contact-form textarea {
   padding: 12px;
   font-size: 1rem;
-  border: 2px solid #1e3a8a; /* Dark blue border */
+  border: 2px solid #1e3a8a;
   border-radius: 8px;
   background-color: #ffffff;
   color: #111;
@@ -53,14 +52,13 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #2e7d32; /* Green on focus */
+  border-color: #2e7d32;
 }
 
-/* Button */
 .contact-form button {
   padding: 14px;
   font-size: 1rem;
-  background-color: #2e7d32; /* Green */
+  background-color: #2e7d32;
   color: white;
   border: none;
   border-radius: 8px;
@@ -70,5 +68,5 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #1b5e20; /* Darker green */
+  background-color: #1b5e20;
 }

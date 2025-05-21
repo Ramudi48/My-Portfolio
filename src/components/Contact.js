@@ -3,26 +3,28 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact-section" id="contact">
-      <h2 className="contact-title">Get in Touch</h2>
+    <section className="contact-wrapper" id="contact">
+      <h2 className="contact-heading">Get in Touch</h2>
 
-      <form className="contact-form">
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" placeholder="Your name" required />
+      <div className="contact-card">
+        <form className="contact-form">
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
 
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" placeholder="you@example.com" required />
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required />
 
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          rows="6"
-          placeholder="Write your message here..."
-          required
-        ></textarea>
+          <label htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            rows="6"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
 
-        <button type="submit">Send Message</button>
-      </form>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
   );
 };

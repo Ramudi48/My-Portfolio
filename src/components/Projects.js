@@ -40,6 +40,20 @@ const projects = [
     github: "https://github.com/Ramudi48/Coffee-Shop-Website",
   },
   {
+    title: "Car Rental System",
+    image: "carrental.jpg", // Replace with your image path
+    description:
+      "A Java program for managing a car rental system, allowing users to add, remove, and view car details, with a simple text-based menu interface.",
+    github: "https://github.com/Ramudi48/Car-Rental-System",
+  },
+  {
+    title: "Plane Management System",
+    image: "planemanagement.jpg", // Replace with your image path
+    description:
+      "A Java program managing a fleet of planes, allowing users to add, remove, and view plane details, with a simple text-based menu interface.",
+    github: "https://github.com/Ramudi48/Plane-Management",
+  },
+  {
     title: "Clean Water Website",
     image: "cleanwater.jpg", // Replace with your image path
     description:
@@ -47,32 +61,18 @@ const projects = [
     github: "https://github.com/Ramudi48/cleanwater.com",
   },
   {
-    title: "Chat Application",
-    image: "chatapp.jpg", // Replace with your image path
+    title: "Login and Registration Form",
+    image: "login and Registration Form.jpg", // Replace with your image path
     description:
-      "A real-time chat application built with WebSocket, allowing users to communicate in different chat rooms.",
-    github: "#",
+      "A simple login and registration form built with HTML, CSS, and JavaScript, featuring form validation and user feedback.",
+    github: "https://github.com/Ramudi48/Login-Register-Web-Form",
   },
   {
-    title: "Blog Platform",
-    image: "blogplatform.jpg", // Replace with your image path
-    description:
-      "A blogging platform where users can create, edit, and comment on blog posts, built with Node.js and Express.",
-    github: "#",
-  },
-  {
-    title: "Task Management App",
-    image: "taskmanagement.jpg", // Replace with your image path
-    description:
-      "A task management application that allows users to create, update, and delete tasks, with a focus on user-friendly design.",
-    github: "#",
-  },
-  {
-    title: "Recipe Finder",
-    image: "recipefinder.jpg", // Replace with your image path
-    description:
-      "A web application that helps users find recipes based on ingredients they have at home, using a third-party API.",
-    github: "#",
+    title: "More",
+    image: "github.jpg", // Replace with your image path
+    
+      
+    github: "https://github.com/Ramudi48",
   },
 ];
 

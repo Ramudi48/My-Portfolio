@@ -1,34 +1,32 @@
-import React from 'react';
-import './Contact.css';
+import React from "react";
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
-      
+    <section className="contact-wrapper" id="contact">
+      <h2 className="contact-heading">Get in Touch</h2>
 
-      <main className="contact-content">
-        <h2>Contact Me</h2>
-        <div className="contact-intro">
-          
-          <div className="email-info">
-            <h3>Get In Touch</h3>
-            
-            
-          </div>
-        </div>
+      <div className="contact-card">
         <form className="contact-form">
-          <div className="form-row">
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-          </div>
-          <input type="text" placeholder="Subject" required />
-          <textarea placeholder="Message" required></textarea>
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" required />
+
+          <label htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            rows="6"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+
           <button type="submit">Send Message</button>
         </form>
-      </main>
-    </div>
+      </div>
+    </section>
   );
 };
 
 export default Contact;
-

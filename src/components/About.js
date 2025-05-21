@@ -22,9 +22,9 @@ const About = () => {
 
           <ul className="about-details">
             <li><strong>Degree:</strong> BEng(Hons) Software Engineering</li>
-            <li><strong>Email:</strong> <a href="mailto:lashenmartino@gmail.com">lashenmartino@gmail.com</a></li>
-            <li><strong>Mobile:</strong> <a href="tel:+94762573095">(+94) 762573095</a></li>
-            <li><strong>Location:</strong> Kalutara, Sri Lanka</li>
+            <li><strong>Email:</strong> <a href="ramudimunasinghe@gmail.com">ramudimunasinghe@gmail.com</a></li>
+            <li><strong>Mobile:</strong> <a href="tel:+94762957442">(+94) 762957442</a></li>
+            
           </ul>
         </div>
         

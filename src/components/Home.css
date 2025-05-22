@@ -4,7 +4,9 @@
   justify-content: space-between;
   padding: 80px 10%;
   flex-wrap: wrap;
-  background: linear-gradient(to right, #ffffff, #f3f9f3);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  
 }
 
 .hero-left {
@@ -20,6 +22,7 @@
 .highlight-name {
   color: #2e7d32;
   font-weight: bold;
+  color: var(--highlight-color);
 }
 
 .hero-left h1 {
@@ -36,13 +39,15 @@
   font-size: 1rem;
   color: #444;
   margin-bottom: 20px;
+  color: var(--highlight-color);
 }
 
 .social-icons a {
-  color: #2e7d32;
+  color: #4ae251;
   font-size: 1.5rem;
   margin-right: 20px;
   transition: transform 0.3s;
+  
 }
 
 .social-icons a:hover {

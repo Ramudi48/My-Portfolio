@@ -1,23 +1,45 @@
 /* Wrapper to center everything */
+:root {
+  --contact-bg: #ffffff;
+  --contact-text: #1a1a1a;
+  --contact-heading: #27472c;
+  --contact-border: #1e3a8a;
+  --contact-button-bg: #2e7d32;
+  --contact-button-hover: #1b5e20;
+  --contact-input-bg: #ffffff;
+}
+
+.dark-mode {
+  --contact-bg: #1e1e1e;
+  --contact-text: #f0f0f0;
+  --contact-heading: #90ee90;
+  --contact-border: #4caf50;
+  --contact-button-bg: #66bb6a;
+  --contact-button-hover: #388e3c;
+  --contact-input-bg: #2c2c2c;
+}
+
 .contact-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px 20px;
+  background-color: var(--contact-bg);
+  color: var(--contact-text);
 }
 
-/* Centered heading outside the form box */
+/* Heading outside the box */
 .contact-heading {
   font-size: 2.8rem;
   font-weight: bold;
-  color: #27472c;
+  color: var(--contact-heading);
   margin-bottom: 30px;
   text-align: center;
 }
 
 /* Card-style form box */
 .contact-card {
-  background-color: #ffffff;
+  background-color: var(--contact-bg);
   border-radius: 12px;
   padding: 40px;
   width: 100%;
@@ -35,30 +57,30 @@
 
 .contact-form label {
   font-weight: 600;
-  color: #333;
+  color: var(--contact-text);
 }
 
 .contact-form input,
 .contact-form textarea {
   padding: 12px;
   font-size: 1rem;
-  border: 2px solid #1e3a8a;
+  border: 2px solid var(--contact-border);
   border-radius: 8px;
-  background-color: #ffffff;
-  color: #111;
+  background-color: var(--contact-input-bg);
+  color: var(--contact-text);
   transition: border-color 0.3s ease;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #2e7d32;
+  border-color: var(--contact-button-bg);
 }
 
 .contact-form button {
   padding: 14px;
   font-size: 1rem;
-  background-color: #2e7d32;
+  background-color: var(--contact-button-bg);
   color: white;
   border: none;
   border-radius: 8px;
@@ -68,5 +90,5 @@
 }
 
 .contact-form button:hover {
-  background-color: #1b5e20;
+  background-color: var(--contact-button-hover);
 }

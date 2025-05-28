@@ -26,7 +26,7 @@ const Navbar = ({ setActiveSection }) => {
             className="dark-mode-btn"
             onClick={() => setIsDarkMode(!isDarkMode)}
           >
-            {isDarkMode ? "Light Mode💡" : "Dark Mode🌙"}
+            {
           </button>
         </li>
       </ul>

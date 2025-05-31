@@ -11,7 +11,7 @@ const About = () => {
         <div className="about-text">
           <h3>
             I’m <span className="highlight">Ramudi Munasinghe</span>, an{" "}
-            <span className="highlight-blue">Undergraduate Software Engineoer</span>
+            <span className="highlight-blue">Undergraduate Software Engineer</span>
           </h3>
           <p>
             I currently study at the <span className="highlight">Informatics Institute of Technology</span> in Sri Lanka,

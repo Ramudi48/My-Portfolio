@@ -21,7 +21,7 @@ const About = () => {
           </p>
 
           <ul className="about-details">
-            <li><strong>Degree:</strong> BEng(Hons) Software Engineering</li>
+            <li><strong>Degree:</strong> BEng(Hons) Software Endgineering</li>
             <li><strong>Email:</strong> <a href="ramudimunasinghe@gmail.com">ramudimunasinghe@gmail.com</a></li>
             <li><strong>Mobile:</strong> <a href="tel:+94762957442">(+94) 762957442</a></li>
             

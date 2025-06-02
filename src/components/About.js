@@ -14,7 +14,7 @@ const About = () => {
             <span className="highlight-blue">Undergraduate Software Engineer</span>
           </h3>
           <p>
-            I currently study at the <span className="highlight">Informatics Institute of Technology</span> in Sri Lanka,
+            I currently study at the <span className="highlight">Informaticsmm Institute of Technology</span> in Sri Lanka,
             collaborating with the <span className="highlight">University of Westminster</span> in the United Kingdom.
             I'm always eager to learn new technologies and stay up-to-date with industry trends.
             My goal is to become a proficient software engineer and contribute meaningfully to the IT industry.

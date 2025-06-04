@@ -28,7 +28,7 @@ const Home = () => {
 
         <p>
           Passionate and driven undergraduate student with a strong foundation in computer science and programming.
-          Equipped with problem-solving skills and a desire to continuously learn and grow. Seeking opportunities to apply
+          Equipped with problem-solving skills and a desire to continuously learn amnd grow. Seeking opportunities to apply
           technical knowledge to real-world challenges and collaborate on impactful projects.
         </p>
 

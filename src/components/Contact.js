@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="contact-card">
         <form className="contact-form">
-          <label htmlFor="name">Namme</label>
+          <label htmlFor="name">Name</label>
           <input type="text" id="name" placeholder="Your name" required />
 
           <label htmlFor="email">Email</label>

@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Doctor Appointment Booking System",
-    image: "doctorappointment.jpg", // Replace with your image path
+    image: "doctorappointment.jpg", 
     description:
       "A web application for booking doctor appointments, allowing users to search for doctors, view availability, and manage their appointments.",
     github: "https://github.com/Ramudi48/Doctor-Appointment-Website",

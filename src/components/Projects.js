@@ -48,7 +48,7 @@ const projects = [
   },
   {
     title: "Plane Management System",
-    image: "planemanagement.jpg", // Replace with your image path
+    image: "planemanagement.jpg", 
     description:
       "A Java program managing a fleet of planes, allowing users to add, remove, and view plane details, with a simple text-based menu interface.",
     github: "https://github.com/Ramudi48/Plane-Management",

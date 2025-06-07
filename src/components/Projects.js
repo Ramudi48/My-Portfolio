@@ -5,7 +5,7 @@ import './Projects.css';
 const projects = [
   {
     title: "Gamified Drug Addiction Prevention App",
-    image: "drugaddiction.jpg", // Replace with your image path
+    image: "drugaddiction.jpg", 
     description:
       "A mobile app designed to prevent drug addiction through gamification, featuring quizzes, rewards, and a community forum for support.",
     github: "https://github.com/Ramudi48",
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Doctor Appointment Booking System",
-    image: "doctorappointment.jpg", // Replace with your image path
+    image: "doctorappointment.jpg", 
     description:
       "A web application for booking doctor appointments, allowing users to search for doctors, view availability, and manage their appointments.",
     github: "https://github.com/Ramudi48/Doctor-Appointment-Website",
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     title: "Plane Management System",
-    image: "planemanagement.jpg", // Replace with your image path
+    image: "planemanagement.jpg", 
     description:
       "A Java program managing a fleet of planes, allowing users to add, remove, and view plane details, with a simple text-based menu interface.",
     github: "https://github.com/Ramudi48/Plane-Management",

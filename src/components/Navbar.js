@@ -14,7 +14,7 @@ const Navbar = ({ setActiveSection }) => {
   }, [isDarkMode]);
 
   return (
-    <nav className="navbajr">
+    <nav className="navbar">
       <div className="navbar-logo">Ramudi</div>
       <ul className="navbar-links">
         <li onClick={() => setActiveSection("home")}>Home</li>

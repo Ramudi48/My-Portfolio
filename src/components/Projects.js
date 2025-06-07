@@ -5,7 +5,7 @@ import './Projects.css';
 const projects = [
   {
     title: "Gamified Drug Addiction Prevention App",
-    image: "drugaddiction.jpg", // Replace with your image path
+    image: "drugaddiction.jpg", 
     description:
       "A mobile app designed to prevent drug addiction through gamification, featuring quizzes, rewards, and a community forum for support.",
     github: "https://github.com/Ramudi48",

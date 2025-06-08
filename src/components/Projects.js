@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "Car Rental System",
-    image: "carrental.jpg", // Replace with your image path
+    image: "carrental.jpg", 
     description:
       "A Java program for managing a car rental system, allowing users to add, remove, and view car details, with a simple text-based menu interface.",
     github: "https://github.com/Ramudi48/Car-Rental-System",

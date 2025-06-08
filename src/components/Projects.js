@@ -62,7 +62,7 @@ const projects = [
   },
   {
     title: "Login and Registration Form",
-    image: "login and Registration Form.jpg", // Replace with your image path
+    image: "login and Registration Form.jpg", 
     description:
       "A simple login and registration form built with HTML, CSS, and JavaScript, featuring form validation and user feedback.",
     github: "https://github.com/Ramudi48/Login-Register-Web-Form",

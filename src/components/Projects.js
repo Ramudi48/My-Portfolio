@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "Clean Water Website",
-    image: "cleanwater.jpg", // Replace with your image path
+    image: "cleanwater.jpg", 
     description:
       "A website promoting clean water initiatives, featuring information on water conservation, donation options, and community events.",
     github: "https://github.com/Ramudi48/cleanwater.com",

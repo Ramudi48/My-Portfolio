@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "Car Rental System",
-    image: "carrental.jpg", // Replace with your image path
+    image: "carrental.jpg", 
     description:
       "A Java program for managing a car rental system, allowing users to add, remove, and view car details, with a simple text-based menu interface.",
     github: "https://github.com/Ramudi48/Car-Rental-System",
@@ -55,14 +55,14 @@ const projects = [
   },
   {
     title: "Clean Water Website",
-    image: "cleanwater.jpg", // Replace with your image path
+    image: "cleanwater.jpg", 
     description:
       "A website promoting clean water initiatives, featuring information on water conservation, donation options, and community events.",
     github: "https://github.com/Ramudi48/cleanwater.com",
   },
   {
     title: "Login and Registration Form",
-    image: "login and Registration Form.jpg", // Replace with your image path
+    image: "login and Registration Form.jpg", 
     description:
       "A simple login and registration form built with HTML, CSS, and JavaScript, featuring form validation and user feedback.",
     github: "https://github.com/Ramudi48/Login-Register-Web-Form",

@@ -69,7 +69,7 @@ const projects = [
   },
   {
     title: "More",
-    image: "github.jpg", // Replace with your image path
+    image: "github.jpg", 
     
       
     github: "https://github.com/Ramudi48",

@@ -49,7 +49,7 @@ const Home = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-        <img src="/profile.jpg" alt="Ramudi Munasinghe" />
+        <img src="/profile.jpg" alt="Ramudi Munamsinghe" />
       </motion.div>
     </section>
   );

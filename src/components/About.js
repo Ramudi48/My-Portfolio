@@ -18,6 +18,7 @@ const About = () => {
             collaborating with the <span className="highlight">University of Westminster</span> in the United Kingdom.
             I'm always eager to learn new technologies and stay up-to-date with industry trends.
             My goal is to become a proficient software engineer and contribute meaningfully to the IT industry.
+            nn
           </p>
 
           <ul className="about-details">
